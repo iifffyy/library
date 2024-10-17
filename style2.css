@@ -1,0 +1,119 @@
+.container{
+    background-color: rgb(152, 131, 104);
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar{
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    border: 1px solid black;
+    display: flex;
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+.left img{
+
+    margin: 10px;
+   
+}
+.right{
+    width: 30%;
+}
+.center{
+ 
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.center div p{
+    padding: 0;
+    margin: 0;
+}
+.center div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.two div p{
+    padding: 0;
+    margin: 0;
+}
+.two div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.three div p{
+    padding: 0;
+    margin: 0;
+}
+.three div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.four div p{
+    padding: 0;
+    margin: 0;
+}
+.four div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.five div p{
+    padding: 0;
+    margin: 0;
+}
+.five div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dropdown .me {
+    display: flex;
+    flex-direction: row;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+.right .rleft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.right div p{
+    padding: 0;
+    margin: 0;
+}
+.right .rleft .brleft{
+    display: flex;
+    flex-direction: row;
+}
+.right .rright {
+    
+}
+
+
+
+
+
+

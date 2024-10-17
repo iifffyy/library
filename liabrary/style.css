@@ -1,0 +1,457 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container {
+	margin: 0 30px;
+}
+p {
+	margin: 0;
+	padding: 0;
+}
+/* header Section */
+/* top header */
+.topHeader {
+    background: white;
+    height: 50px;
+}
+
+.topHeader p {
+	margin: 0;
+	padding: 0px;
+	width: 40%;
+	font-size: 30px;
+	float: left;
+}
+
+.login {
+	width: 50%;
+	float: right;
+    text-align: right;
+    margin-top: 15px;
+}
+
+.login a {
+	text-decoration: none;
+	color: black;
+	padding: 15px;
+}
+/* sign in section */
+.login a{
+	position: relative;
+}
+
+.signin{
+	top: 14%;
+	right: 9%;
+	background: yellow;
+	width: 300px;
+	position: absolute;
+	display: none;
+	
+}
+.login a:hover .signin{
+	display: block;
+}
+
+/* end topHeader  */
+
+
+/* main menu */
+/* logo section */
+.mainMenu {
+	margin: 0;
+	padding: 0;
+}
+.logo {
+	margin: 0;
+	padding: 0;
+	background: #A6CCD4;
+	display: inline-block;
+	width: 100%;
+}
+.name {
+	color: white;
+	font-size: 47px;
+	letter-spacing: 4px;
+	width: 50%;
+	float: left;
+	padding: 20px 0;
+}
+.logoimg {
+	width: 4%;
+    float: right;
+    margin-right: 70px;
+}
+.logoimg img {
+	width: 100%;
+	padding: 16px;
+	border: 2px solid #008CCD;
+	border-radius: 50px;
+}/* end logo Section */
+
+
+
+/* menu section */
+.menu {
+	width: 100%;
+	background: #4B717B;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+.menus {
+	width: 55%;
+	float: left;
+}
+.menus nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.menus nav ul li {
+	display: inline-block;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.menus nav ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 19px;
+}/*end menu section */
+
+/* dropdown menu */
+.menus nav ul li ul {
+	position: absolute;
+	background: #FFFFFF;
+	width: 250px;
+	padding-top: 10px;
+	top: 100%;
+	left: 0%;
+	display: none;
+	border: 2px solid #EFF2F7;
+}
+.menus nav ul li:hover ul {
+	display: block;
+}
+.menus nav ul li ul li{
+    display: block;
+}
+.menus nav ul li ul a{
+    color: #2A2A2A;
+    font-size: 16px;
+}
+.menus nav ul li ul li:hover{
+    background: #EFF2F7;
+}
+
+
+.search {
+	width: 45%;
+	float: right;
+	padding-top: 5px;
+	text-align: right;
+}
+
+.search select {
+	font-size: 22px;
+    width: 200px;
+    background: #F3F3F3;
+    border: none;
+    border-radius: 5px;
+}
+.search input {
+    font-size: 21px;
+    border-radius: 5px;
+}
+.search button {
+	font-size: 23px;
+	background: white;
+    border: none;
+    border-radius: 5px;
+}
+.search p {
+	margin: 0;
+	padding: 0;
+	color: white;
+	width: 35px;
+	display: inline-block;
+	font-size: 11px;
+	padding-left: 5px;
+}
+
+/* content Section */
+section {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+section .row{
+	padding: 50px 0px;
+}
+
+.alldiv{
+	display: inline-block;
+}
+
+/* div1 */
+.div1 {
+	width: 10%;
+	margin: 0;
+	margin-right: 30px;
+	line-height: 1.4;
+	float: left;
+}
+.div1 img {
+	width: 100%;
+	height: 200px;
+}
+
+.div1 a {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	color: #2A2A2A;
+}
+.firstA{
+	color: black;
+	font-weight: bold;
+}
+
+.div1 a:hover{
+	text-decoration: underline;
+}/* end div1 */
+
+/* div2 */
+.div2 {
+	width: 15%;
+	margin: 0;
+	margin-right: 30px;
+	background: #FAFAFA;
+	border: 1px solid gray;
+	text-align: center;
+	padding: 15px 0;
+	line-height: 1.6;
+	padding-bottom: 120px;
+	float: left;
+}
+
+.div2 .p1{
+	font-weight: bold;
+}	/* end div2 */
+
+/* div3 */
+
+.div3 {
+	width: 45%;
+	margin: 0;
+	margin-right: 30px;
+	background: #A6CCD4;
+	float: left;
+	padding: 20px 0;
+}
+
+.div3 div {
+	background: #4B717B;
+	padding: 20px;
+	color: white;
+	margin-top: 61px;
+}/*end div3  */
+
+/* div4 */
+.div4 {
+	width: 22%;
+	margin: 0;
+}
+.div4 img {
+	width: 100%;
+}/*end div4  */
+
+/* 2nd Section */
+
+.secondSection {
+	background: #E8EAEE;
+	display: inline-block;
+	text-align: center;
+	padding: 50px 0;
+}
+.secondSection h3{
+	margin: 0;
+	padding: 0px;
+}
+.secondSection .line{
+	
+	width: 5%;
+	margin: 30px;
+	margin-left: 600px;
+	border: 3px solid gray;
+}
+
+
+.seconddiv1 {
+	background: white;
+	width: 45%;
+	padding: 20px 20px 200px 20px;
+	float: left;
+	line-height: 2;
+	text-align: left;
+}
+.seconddiv1 .p1{
+	font-weight: bold;
+}
+.seconddiv1 a{
+	display: block;
+}
+.seconddiv2 {
+	background: white;
+	width: 45%;
+	padding: 20px 20px 200px 20px;
+	float: right;
+	line-height: 2;
+	text-align: left;
+}
+.seconddiv2 .p1{
+	font-weight: bold;
+}
+.seconddiv2 a{
+	display: block;
+}/* end 2nd section */
+
+/* 3rd section */
+
+.thirdSection {
+	padding: 50px 0;
+}
+
+.thirddiv {
+	width: 21%;
+	border: 1px solid gray;
+	padding: 15px;
+	display: inline-block;
+	margin-right: 20px;
+	line-height: 1.6;
+}
+.thirddiv p {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	font-size: 25px;
+}
+.thirddiv a {
+	display: block;
+	padding: 10px 0;
+	text-decoration: none;
+	color: #2A2A2A;
+	border-bottom: 1px dotted;
+}
+.thirddiv a:hover {
+	text-decoration: underline;
+}
+.thirddiv .line {
+	width: 15%;
+	border: 3px solid gray;
+	margin-bottom: 20px;
+}
+.thirddiv4{
+	margin: 0;
+}
+/* end 3rd section */
+
+
+/* 4th section */
+
+.forthSection {
+	background: #A6CCD4;
+	overflow: hidden;
+}
+
+.forthdiv {
+	width: 31%;
+	float: left;
+	background: white;
+	height: 400px;
+	line-height: 1.6;
+	margin-right: 45px;
+	margin-bottom: 50px;
+}
+
+.forthdiv img{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.forthdiv a{
+	color:#2A2A2A ;
+	padding: 30px 10px;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.forthdiv a:hover{
+	text-decoration: underline;
+}
+.forthdiv p{
+	color:#2A2A2A ;
+	padding:10px;
+	
+}
+.forthdiv3{
+	margin: 0;
+}
+/* end 4th section */
+
+/* footer */
+footer {
+	background: #4B717B;
+	overflow: hidden;
+}
+
+.footerdiv1 {
+	
+	width: 20%;
+	padding: 20px;
+	line-height: 2;
+	float: left;
+}
+.footerdiv2 {
+	
+	width: 20%;
+	padding: 20px;
+	line-height: 2;
+	float: left;
+}
+footer ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+footer ul li a{
+	color: white;
+	text-decoration: none;
+}
+footer ul li a:hover{
+	text-decoration: underline;
+}
+
+footer .name{
+	text-align: right;
+	float: right;
+}
+.footerdiv3 {
+	padding-top: 300px;
+}
+.foot {
+	float: left;
+}
+.foot p{
+	color: white;
+	padding: 30px;
+}
